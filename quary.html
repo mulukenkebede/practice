@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script> 
+        function myfunc(){
+            let t = document.querySelector("h1")
+            if(t.innerHTML === "HELLO MULUKEN"){
+                t.innerHTML = "WHERE ARE YOU";
+            }
+            else{
+                t.innerHTML = "PLEASE REMEMBER";
+            }
+        }
+    </script>
+</head>
+<body>
+    <h1> HELLO MULUKEN</h1>
+    <button onclick="myfunc()"> Click Me</button>
+</body>
+</html>
